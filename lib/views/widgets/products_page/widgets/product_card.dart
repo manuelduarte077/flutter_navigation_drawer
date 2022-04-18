@@ -29,32 +29,37 @@ class ProductCard extends ConsumerWidget {
         left: index.isOdd ? 0 : 20,
         right: index.isEven ? 0 : 20,
       ),
-      child: Column(
-        children: [
-          /**
-           * Image
-           */
-          Expanded(
-            flex: 14,
-            child: FlipAnimation(
-              animation: categoryAnimationController.rotateAnimation(index),
-              child: ProductImage(image: product.image),
-            ),
-          ),
-          /**
-           * Name and Price
-           */
-          Expanded(
-            flex: 6,
-            child: AnimatedProductDescription(
-              animation: categoryAnimationController.productTextAnimation(
-                index,
+      child: InkWell(
+        onTap: () {
+          Navigator.pushNamed(context, 'product-detail', arguments: product);
+        },
+        child: Column(
+          children: [
+            /**
+             * Image
+             */
+            Expanded(
+              flex: 14,
+              child: FlipAnimation(
+                animation: categoryAnimationController.rotateAnimation(index),
+                child: ProductImage(image: product.image),
               ),
-              name: product.name,
-              price: product.price,
             ),
-          )
-        ],
+            /**
+             * Name and Price
+             */
+            Expanded(
+              flex: 6,
+              child: AnimatedProductDescription(
+                animation: categoryAnimationController.productTextAnimation(
+                  index,
+                ),
+                name: product.name,
+                price: product.price,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
