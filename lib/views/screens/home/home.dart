@@ -11,6 +11,15 @@ class Home extends StatefulWidget {
 
   @override
   State<Home> createState() => _HomeState();
+
+  static const String routeName = '/';
+
+  static Route route() {
+    return MaterialPageRoute(
+      builder: (_) => const Home(),
+      settings: const RouteSettings(name: routeName),
+    );
+  }
 }
 
 class _HomeState extends State<Home> with TickerProviderStateMixin {
