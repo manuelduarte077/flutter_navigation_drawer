@@ -5,7 +5,7 @@ import 'package:navigation_drawer_challenge/src/core/constants/constants.dart'
     show categoryAnimationDuration, drawerAnimationDuration;
 import 'package:navigation_drawer_challenge/src/core/providers/providers.dart';
 
-import 'widgets/widgets.dart';
+import '../../widgets/widgets.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);

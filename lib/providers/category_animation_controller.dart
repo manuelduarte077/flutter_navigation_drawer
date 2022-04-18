@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:navigation_drawer_challenge/src/core/constants/constants.dart';
+import 'package:navigation_drawer_challenge/src/constants/layout_constants.dart';
 
 class CategoryAnimationController {
   final AnimationController controller;

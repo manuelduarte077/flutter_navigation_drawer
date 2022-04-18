@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import 'package:navigation_drawer_challenge/src/core/constants/constants.dart';
-import 'package:navigation_drawer_challenge/src/core/data/models/models.dart';
-import 'package:navigation_drawer_challenge/src/core/data/data.dart';
+import 'package:navigation_drawer_challenge/src/data/data.dart';
 
 import 'category_animation_controller.dart';
 import 'drawer_animation_controller.dart';
