@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:navigation_drawer_challenge/src/core/data/data.dart';
+import 'package:navigation_drawer_challenge/data/data.dart';
 
 import 'custom_drawer_option.dart';
 

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import 'package:navigation_drawer_challenge/src/core/constants/constants.dart';
-import 'package:navigation_drawer_challenge/src/core/providers/providers.dart';
-import 'package:navigation_drawer_challenge/src/core/theme/theme.dart';
+import 'package:navigation_drawer_challenge/constants/constants.dart';
+import 'package:navigation_drawer_challenge/providers/providers.dart';
+import 'package:navigation_drawer_challenge/theme/theme.dart';
 
 class AnimatedOptionText extends ConsumerWidget {
   const AnimatedOptionText({

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:navigation_drawer_challenge/src/core/animations/animations.dart';
-import 'package:navigation_drawer_challenge/src/core/theme/theme.dart';
+import 'package:navigation_drawer_challenge/animations/animations.dart';
+import 'package:navigation_drawer_challenge/theme/theme.dart';
 
 class AnimatedProductDescription extends StatelessWidget {
   const AnimatedProductDescription({

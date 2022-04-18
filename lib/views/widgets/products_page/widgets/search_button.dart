@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:navigation_drawer_challenge/src/core/constants/constants.dart'
+import 'package:navigation_drawer_challenge/constants/constants.dart'
     show accentColor, searchIcon;
 
 class SearchButton extends StatelessWidget {

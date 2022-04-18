@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:navigation_drawer_challenge/src/core/animations/animations.dart';
-import 'package:navigation_drawer_challenge/src/core/providers/providers.dart';
+import 'package:navigation_drawer_challenge/animations/animations.dart';
+import 'package:navigation_drawer_challenge/providers/providers.dart';
 
 import 'widgets/widgets.dart';
 

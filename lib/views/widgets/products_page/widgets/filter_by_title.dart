@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:navigation_drawer_challenge/src/core/theme/theme.dart'
+import 'package:navigation_drawer_challenge/theme/theme.dart'
     show filterByTitleStyle;
 
 class FilterByTitle extends StatelessWidget {
